@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int time;
+    printf("What is the time in 24 Hours Format :");
+    scanf("%d", &time);
+        if (time >= 12) {
+        printf("Good Day Sir / Ma");
+        } else {
+        printf("Good Morning Sir / Ma");
+        }
+    return 0;
+}        
